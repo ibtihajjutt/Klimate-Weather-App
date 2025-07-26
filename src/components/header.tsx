@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import { CitySearch } from "./city-search";
 import { ThemeToggle } from "./theme-toggle";
 import { useTheme } from "@/context/theme-provider";
-import logoDark from "@/assets/logo.png";
-import logoLight from "@/assets/logo2.png";
+import logoDark from "@/public/logo.png";
+import logoLight from "@/public/logo2.png";
 
 export function Header() {
   const { theme } = useTheme();
