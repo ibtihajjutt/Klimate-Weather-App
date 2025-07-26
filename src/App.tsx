@@ -21,7 +21,7 @@ const queryClient = new QueryClient({
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <BrowserRouter>
+      <BrowserRouter basename="/Klimate-Weather-App/">
         <ThemeProvider defaultTheme="dark">
           <Layout>
             <Routes>
